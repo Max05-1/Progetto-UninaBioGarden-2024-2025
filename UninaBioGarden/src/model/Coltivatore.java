@@ -26,6 +26,9 @@ public class Coltivatore {
     public String getUsername() { return username; }
     public String getEmail() { return email; }
 
-
+    @Override
+    public String toString() {
+        return nome + " " + cognome;
+    }
 
 }
