@@ -1,5 +1,5 @@
-// model/Notifica.java
-package model;
+// main.java.model/Notifica.java
+package main.java.model;
 
 import java.util.Date;
 
