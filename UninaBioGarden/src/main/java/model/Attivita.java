@@ -1,5 +1,4 @@
-package main.java.model;
-
+package model;
 import java.sql.Date;
 
 public class Attivita {

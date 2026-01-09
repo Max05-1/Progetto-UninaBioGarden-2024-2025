@@ -2,7 +2,7 @@ package test;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
-import main.java.dao.DatabaseManager;
+import dao.DatabaseManager;
 import java.sql.Connection;
 import java.sql.SQLException;
 
@@ -16,7 +16,6 @@ public class DBConnectionTest {
             assertNotNull(conn, "ERRORE: DatabaseManager.getConnection() ha restituito null.");
 
             assertFalse(conn.isClosed(), "ERRORE: La connessione risulta chiusa.");
-
 
             System.out.println("CONNESSO CON SUCCESSO A: " + conn.getMetaData().getURL());
             System.out.println("UTENTE DB: " + conn.getMetaData().getUserName());
