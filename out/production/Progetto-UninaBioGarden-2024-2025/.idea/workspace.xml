@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="597f4afa-5a10-42d9-96c4-a7ebd0a624a7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Progetto-UninaBioGarden-2024-2025.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Progetto-UninaBioGarden-2024-2025.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UninaBioGarden/UninaBioGarden.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UninaBioGarden/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UninaBioGarden/icons/app_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UninaBioGarden/icons/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UninaBioGarden/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UninaBioGarden/main/resources/icons/app_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UninaBioGarden/main/resources/icons/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/UninaBioGarden/test/DBConnectionTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Max05-1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Max05-1/Progetto-UninaBioGarden-2024-2025.git&quot;,
+    &quot;accountId&quot;: &quot;52e2be22-e56a-4c1d-8c50-725975921235&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="36ZM77JmN1qaHXH7BAaoFP0mYIZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;JUnit.DBConnectionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/max/IdeaProjects/Progetto-UninaBioGarden-2024-2025/out/production/Progetto-UninaBioGarden-2024-2025/lib&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/max/IdeaProjects/Progetto-UninaBioGarden-2024-2025/UninaBioGarden/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Progetto-UninaBioGarden-2024-2025" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Progetto-UninaBioGarden-2024-2025" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="597f4afa-5a10-42d9-96c4-a7ebd0a624a7" name="Changes" comment="" />
+      <created>1765209472949</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765209472949</updated>
+      <workItem from="1765209477815" duration="1342000" />
+      <workItem from="1765878699741" duration="639000" />
+      <workItem from="1765889386147" duration="3853000" />
+      <workItem from="1767640405022" duration="1707000" />
+      <workItem from="1767974872937" duration="1569000" />
+      <workItem from="1768036559212" duration="286000" />
+      <workItem from="1768036854299" duration="412000" />
+      <workItem from="1768068267429" duration="1137000" />
+      <workItem from="1768326796259" duration="327000" />
+      <workItem from="1768383621126" duration="2118000" />
+      <workItem from="1768417437530" duration="522000" />
+      <workItem from="1768419399107" duration="329000" />
+      <workItem from="1768419755739" duration="1277000" />
+      <workItem from="1768477823834" duration="3711000" />
+      <workItem from="1768558146595" duration="2492000" />
+      <workItem from="1768723572438" duration="2851000" />
+      <workItem from="1768733748668" duration="380000" />
+    </task>
+    <task id="LOCAL-00001" summary="Aggiunta Classe Coltura e Lotto">
+      <option name="closed" value="true" />
+      <created>1765893952610</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765893952610</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Aggiunta Classe Coltura e Lotto">
+      <option name="closed" value="true" />
+      <created>1767976263929</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1767976263929</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Aggiunta Classe Coltura e Lotto">
+      <option name="closed" value="true" />
+      <created>1768036700589</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1768036700590</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Aggiunta Metodi alla classe ColturaDao">
+      <option name="closed" value="true" />
+      <created>1768068480824</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768068480824</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[FIX] Problemi di connessione al db risolti">
+      <option name="closed" value="true" />
+      <created>1768421406899</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768421406899</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Aggiunta Classi model e dao per la funzionalità &quot;report&quot;">
+      <option name="closed" value="true" />
+      <created>1768643630658</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768643630658</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Aggiunta classi Mainframe e MainController">
+      <option name="closed" value="true" />
+      <created>1768646769116</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1768646769116</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Aggiunta classi CatalogoController e DashboardController">
+      <option name="closed" value="true" />
+      <created>1768723802604</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1768723802604</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Aggiunti Metodi alla classe CatalogoController">
+      <option name="closed" value="true" />
+      <created>1768726675584</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1768726675584</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Aggiunta Classe Coltura e Lotto" />
+    <MESSAGE value="Aggiunta Metodi alla classe ColturaDao" />
+    <MESSAGE value="Aggiunta Theme, assets e login&#10;&#10;Sono stati aggiunti al progetto, due asset - logo e app icon&#10;la libreria FlatLaf per un aspetto più piacevole&#10;e la prima view - Login insieme al suo controller&#10;Aggiunti proprietari al DB per testing -  esito positivo" />
+    <MESSAGE value="[FIX] Problemi di connessione al db risolti" />
+    <MESSAGE value="Aggiunta Classi model e dao per la funzionalità &quot;report&quot;" />
+    <MESSAGE value="Aggiunta classi Mainframe e MainController" />
+    <MESSAGE value="Aggiunta classi CatalogoController e DashboardController" />
+    <MESSAGE value="Aggiunti Metodi alla classe CatalogoController" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunti Metodi alla classe CatalogoController" />
+  </component>
+</project>
