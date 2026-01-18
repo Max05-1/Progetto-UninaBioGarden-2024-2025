@@ -144,6 +144,20 @@ public class ProgettoDAO {
         }
         return colture;
     }
+    public static boolean isProgettoAttivo(int idLotto) throws SQLException {
+        String query = "SELECT 1\n" +
+                "FROM progetto\n" +
+                "WHERE id_lotto = ?\n" +
+                "  AND CURRENT_DATE BETWEEN data_inizio AND data_fine\n" +
+                "  AND chiuso = FALSE\n" +
+                "LIMIT 1;";
+        try (Connection conn = DatabaseManager.getConnection();
+             PreparedStatement ps = conn.prepareStatement(query)) {
+            ps.setInt(1, idLotto);
+            ResultSet rs = ps.executeQuery();
+            return rs.next();
+        }
+    }
 
     public static List<Attivita> getAttivitaPerColtura(int idProgetto, int idColtura) throws SQLException {
         List<Attivita> attivitaList = new ArrayList<>();
