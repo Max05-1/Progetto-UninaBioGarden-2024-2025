@@ -127,7 +127,7 @@ public class LoginFrame extends JFrame {
         try {
             Proprietario p = controller.autentica(username, password);
             JOptionPane.showMessageDialog(this, "Benvenuto " + p.getNome() + "!", "Login Riuscito", JOptionPane.INFORMATION_MESSAGE);
-            //new MainFrame(p).setVisible(true);
+            new MainFrame(p).setVisible(true);
             this.dispose();
         } catch (IllegalArgumentException ex) {
             JOptionPane.showMessageDialog(this, ex.getMessage(), "Errore Login", JOptionPane.WARNING_MESSAGE);

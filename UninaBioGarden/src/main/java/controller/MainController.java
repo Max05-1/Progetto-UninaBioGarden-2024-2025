@@ -2,8 +2,10 @@ package controller;
 
 import model.Proprietario;
 import view.MainFrame;
+import view.ProgettiPanel;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class MainController {
 
@@ -13,6 +15,23 @@ public class MainController {
     public MainController(MainFrame frame, Proprietario proprietario) {
         this.mainFrame = frame;
         this.proprietario = proprietario;
+    }
+
+    public void showPanel(String panelName) {
+        JPanel panel;
+        switch (panelName) {
+            case "Progetti Stagionali":
+                panel = new ProgettiPanel(proprietario);
+                break;
+
+            default:
+                panel = new JPanel();
+                JLabel label = new JLabel("Sezione" + panelName, SwingConstants.CENTER);
+                label.setFont(label.getFont().deriveFont(Font.BOLD));
+                panel.setLayout(new java.awt.BorderLayout());
+                panel.add(label, BorderLayout.CENTER);
+        }
+        mainFrame.setContentPane(panel);
     }
 
     public void logout() {
