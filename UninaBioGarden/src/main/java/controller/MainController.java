@@ -20,7 +20,7 @@ public class MainController {
         JPanel panel = new JPanel();
         switch (panelName) {
             case "I Miei Lotti":
-                //panel = new LottiPanel(proprietario);
+                panel = new LottiPanel(proprietario);
                 break;
             case "Progetti Stagionali":
                 panel = new ProgettiPanel(proprietario);
