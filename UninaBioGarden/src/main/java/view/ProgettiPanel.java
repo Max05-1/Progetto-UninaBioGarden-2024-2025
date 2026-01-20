@@ -170,7 +170,7 @@ public class ProgettiPanel extends JPanel {
                 card.addMouseListener(new MouseAdapter() {
                     @Override
                     public void mouseClicked(MouseEvent e) {
-                        System.out.println(e.getClickCount());
+                        apriDettaglioProgetto(p);
                     }
                 });
                 listPanel.add(card);
@@ -188,6 +188,19 @@ public class ProgettiPanel extends JPanel {
         Wizard wizard = new Wizard(parentFrame, proprietario);
         wizard.setVisible(true);
         caricaDati();
+    }
+
+    private void apriDettaglioProgetto(Progetto progetto) {
+        DettaglioProgettoPanel dettaglioProgettoPanel = new DettaglioProgettoPanel(progetto, proprietario, controller, () -> {
+            caricaDati();
+        });
+
+        JDialog dettaglioDialog = new JDialog((Frame) SwingUtilities.getWindowAncestor(this), "Dettaglio Progetto: " + progetto.getNome(), true);
+        dettaglioDialog.setContentPane(dettaglioProgettoPanel);
+        dettaglioDialog.pack();
+        dettaglioDialog.setLocationRelativeTo(this);
+        dettaglioDialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+        dettaglioDialog.setVisible(true);
     }
 
 
