@@ -48,7 +48,7 @@ public class ProgettiPanel extends JPanel {
         btnNuovoProgetto = new JButton("Nuovo Progetto");
         btnNuovoProgetto.setToolTipText("Crea un nuovo progetto stagionale");
         btnNuovoProgetto.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-        btnNuovoProgetto.addActionListener(e -> System.out.println("Nuovo progetto stagionale"));
+        btnNuovoProgetto.addActionListener(e -> apriWizardNuovoProgetto());
         filterPanel.add(btnNuovoProgetto);
         add(filterPanel, BorderLayout.NORTH);
 
@@ -73,7 +73,9 @@ public class ProgettiPanel extends JPanel {
             }
         });
         add(scrollPane, BorderLayout.CENTER);
+        caricaDati();
     }
+
     private int calculateNumeroColonne() {
         int panelWidth = getWidth();
         if (panelWidth < 1) panelWidth = 800; // Valore di default
@@ -91,8 +93,6 @@ public class ProgettiPanel extends JPanel {
             }
         }
     }
-
-
 
     private void caricaDati() {
         try {
@@ -123,6 +123,7 @@ public class ProgettiPanel extends JPanel {
             filtraProgetti();
         }
     }
+
     private void filtraProgetti() {
         listPanel.removeAll();
 
@@ -181,6 +182,13 @@ public class ProgettiPanel extends JPanel {
         listPanel.repaint();
     }
 
+    //creazione di un nuovo progetto
+    private void apriWizardNuovoProgetto() {
+        JFrame parentFrame = (JFrame) SwingUtilities.getWindowAncestor(this);
+        Wizard wizard = new Wizard(parentFrame, proprietario);
+        wizard.setVisible(true);
+        caricaDati();
+    }
 
 
 
