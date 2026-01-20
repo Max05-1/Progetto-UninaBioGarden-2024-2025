@@ -26,7 +26,7 @@ public class MainController {
                 panel = new ProgettiPanel(proprietario);
                 break;
             case "Dashboard":
-                //panel = new DashboardPanel(proprietario);
+                panel = new DashboardPanel(proprietario);
                 break;
             case "Notifiche":
                 panel = new NotifichePanel(proprietario);
